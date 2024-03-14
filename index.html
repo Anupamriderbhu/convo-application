@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatcat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.webp" type="image/x-icon">
+    <script defer src="/socket.io/socket.io.js"></script>     <!--connecting client to server -->
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <img class="icon" src="icon.webp" alt="">
+            <h1>Chat-Cat An App that Connects People</h1>
+        </nav>
+    
+        <div class="chat hide">
+            <div class="container">
+            </div>
+        
+            <div class="send">
+                <form action="#" id="send-container">
+                    <input type="text" name="messageInp" id="messageInp" placeholder="Enter Your Message To be sent">
+                    <button class="btn" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="userdiv">
+            <input type="text" class="username" name="username" placeholder="Enter your name please"/>
+            <button class="login-button" onclick="onUserNameSubmit()">Login</button>
+        </div>        
+    
+        <p>Crafted with ❤️ By Anshul Tripathi</p>
+    </div>
+</body>
+
+</html>

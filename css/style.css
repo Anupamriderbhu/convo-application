@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("../d93ef037ee6a0239287a57ea763d07c1.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hide {
+    display: none !important;
+}
+
+.userdiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.username{
+    width: 30rem;
+    padding: 5px 0px;
+   
+}
+
+.login-button {
+    margin-top: 10px;
+    background-color: rgb(73, 222, 73);
+    color: black;
+    width: 6rem;
+    padding: 4px 0px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    width: 6.5rem;
+    height: 6.2rem;
+}
+
+h1 {
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgb(212, 212, 212);
+    max-width: 85rem;
+    border: 2px solid black;
+    margin: auto;
+    height: 55rem;
+    padding: 3.3rem;
+    overflow-y: auto;
+    margin-bottom: 1.3rem;
+}
+
+.message {
+    background-color: grey;
+    width: 25rem;
+    padding: 1rem;
+    margin: 1.7rem 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: rgba(246, 61, 61, 0.925);
+}
+
+
+.right {
+    float: right;
+    clear: both;
+    background-color: rgb(73, 222, 73);
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 98.5rem;
+    width: 100%;
+}
+
+#messageInp {
+    width: 73rem;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    height: 3rem;
+
+}
+
+.btn {
+    font-size: large;
+    width: 9%;
+    height: 3rem;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+
+    background-color: rgb(96, 195, 94);
+}
+
+p {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+
+@media (max-width:900px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    #messageInp {
+        width: 79%;
+    }
+
+    .btn {
+        width: 18%;
+        height: 3rem;
+    }
+
+    .message{
+        margin: 1.7rem -1.8rem;
+        width: 23rem;
+    }
+}

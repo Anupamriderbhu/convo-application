@@ -1,0 +1,6 @@
+websockets are two way connection between a client and a server.
+websockets a problem of one way connection because server cant initiate request. but there is a way called long polling.
+ws and wss like http and https.
+socket io is a js library for realtime web app.
+server can emit events and client can also emit events.
+we can use ajax instead of websockets but multiple requests are waste in checking our db whether a new message is arrived or not.
